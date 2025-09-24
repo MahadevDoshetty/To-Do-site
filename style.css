@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+    font-family: cursive;
+}
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    background-color: white;
+    color: black;
+    border: 2px solid wheat;
+    border-radius: 30px;
+    justify-self: center;
+    height: 39rem;
+    width: 39rem;
+    justify-items: center;
+
+}
+.container>h1 {
+    background-color: #fff;
+    color: black;
+    border: 2px solid wheat;
+    max-height: fit-content;
+    max-width: fit-content;
+    padding: 1rem;
+    border-radius: 20px;
+}
+.input {
+    background-color: #fff;
+    border-color: wheat;
+    margin: 3rem;
+}
+.input>input {
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    border: 2px solid;
+    border-color: wheat;
+    padding-right: 10rem;
+}
+.input>hr {
+    color: wheat;
+    border: 3px solid wheat;
+    margin: 3.5rem;
+    border-radius: 1rem;
+}
+button {
+    padding: 0.7rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid;
+    border-color: wheat;
+    background-color: white;
+}
+button:hover {
+    background-color: wheat;
+    border-color: black;
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    overflow-y: auto;
+    max-height: 20rem;
+}
